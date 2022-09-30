@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;    
+    box-sizing: border-box;
+    
+  }
+
+  body{    
+    min-height: 100vh;
+    background-color: #686161;
+    font-family:Arial, Helvetica, sans-serif;
+    color:grey;
+  }
+
+
+  .container{      
+    background-color: #f5f5f5;
+   
+    gap: 20px;    
+    padding-bottom: 10px;
+    margin-left: 300px;
+    font-size: 16px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    justify-content: space-around;
+  }
+
+  .subcontainerleft{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+   
+  }
+
+  .subcontainerleft p {
+    padding-right: 15px;
+  }
+
+  .container p.txtSent{
+    color: black;
+    opacity: 90%;
+  }
+
+  .subcontainerright{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-bottom: 5px;
+    padding-top: 15px;
+    padding-right: 15px;
+  }
+
+  .txtMsg{
+    width: 300px;
+    height: 80px;
+    background-color:rgb(143, 188, 143);
+    padding: 10px;
+    opacity: 75%;
+  }
+
+  #txtMsgRight{
+    background-color:rgb(206, 211, 158);
+  }
+
+  .foto img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+
+  .hourandStatus{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    padding-right: 20px;
+    align-items: center;
+    font-size: 14px;
+    
+  }
+
+  .checkdonecont1{
+    position: relative;
+
+  }
+
+  .checkdone{
+    padding-left: 15px;    
+  }
+
+  .checkdonecont1 #done1{
+    
+    position: absolute;
+    right: 5px;
+  }
+
